@@ -5,9 +5,9 @@ phases:
     runtime-versions:
       python: 3.9
     commands:
-      - echo "Installing dependencies..."
-      - pip install -r requirements.txt
-      - pip list  # Lists all installed packages
+      - echo "Installing requests library..."
+      - pip install requests
+      - pip list  # Lists all installed packages to verify installation
   pre_build:
     commands:
       - echo "Entering pre_build phase..."
