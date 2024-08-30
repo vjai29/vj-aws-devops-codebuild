@@ -7,7 +7,7 @@ phases:
     commands:
       - echo "Installing requests library..."
       - pip install requests
-      - pip list  # Lists all installed packages to verify installation
+      #- pip list  # Lists all installed packages to verify installation
   pre_build:
     commands:
       - echo "Entering pre_build phase..."
